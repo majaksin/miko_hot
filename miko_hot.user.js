@@ -5,22 +5,22 @@
 // @description  마이와 이치히메, 지니아가 수영복을 모두 탈의합니다.
 // @author       소사희+돌죽
 // @license      MIT
-// @icon         https://majaksin.github.io/miko_hot_v3/preview.png
-// @supportURL   https://github.com/majaksin/miko_hot_v3/issues
-// @homepageURL  https://github.com/majaksin/miko_hot_v3
-// @downloadURL  https://majaksin.github.io/miko_hot_v3/miko_hot_v3.user.js
-// @updateURL    https://majaksin.github.io/miko_hot_v3/miko_hot_v3.user.js
+// @icon         https://majaksin.github.io/miko_hot/preview.png
+// @supportURL   https://github.com/majaksin/miko_hot/issues
+// @homepageURL  https://github.com/majaksin/miko_hot
+// @downloadURL  https://majaksin.github.io/miko_hot/miko_hot.user.js
+// @updateURL    https://majaksin.github.io/miko_hot_v3/miko_hot.user.js
 // @include      https://game.mahjongsoul.com/*
 // @grant        unsafeWindow
 // @grant        GM_getResourceText
 // @run-at       document-start
-// @resource resourcepack https://majaksin.github.io/miko_hot_v3/resourcepack.json
+// @resource resourcepack https://majaksin.github.io/miko_hot/resourcepack.json
 // ==/UserScript==
 
 (function () {
     'use strict';
     const GAME_BASE_URL = 'https://game.mahjongsoul.com/';
-    const RES_BASE_URL = 'https://majaksin.github.io/miko_hot_v3/';
+    const RES_BASE_URL = 'https://majaksin.github.io/miko_hot/';
 
     const version_re = /v\d+\.\d+\.\d+\.w\//i;
     const resourcepack = JSON.parse(GM_getResourceText('resourcepack'));
